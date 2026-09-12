@@ -15,6 +15,7 @@ class operasi_vektor
 private:
     struktur_vektor_3d a;
     struktur_vektor_3d b;
+    float skalar;
 
 public:
     operasi_vektor();
@@ -26,6 +27,10 @@ public:
     struktur_vektor_3d operasi_pengurangan(
         struktur_vektor_3d &a,
         struktur_vektor_3d &b);
+
+    struktur_vektor_3d operasi_skalar(
+        struktur_vektor_3d &a,
+        float &skalar);
 };
 
 #endif

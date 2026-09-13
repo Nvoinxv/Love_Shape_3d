@@ -12,8 +12,11 @@ class rotasi_matrix_3d
 {
 private:
     float theta;
+    struktur_matrix hasil_operasi;
 
 public:
+    rotasi_matrix_3d();
+
     struktur_matrix rotasi_sumbu_x(float &theta);
     struktur_matrix rotasi_sumbu_y(float &theta);
     struktur_matrix rotasi_sumbu_z(float &theta);
